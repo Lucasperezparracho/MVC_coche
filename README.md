@@ -117,3 +117,9 @@ sequenceDiagram
     deactivate View
     
 ```
+## Crear el observer
+
+1. Crea una clase que implemente la interfaz Observer.
+2. Dentro de la clase, implementa el método update(Observable o, Object arg) que se invocará cuando haya cambios en el objeto observado.
+3. En el método update, realiza las acciones necesarias según los cambios recibidos.
+4. Registra el Observer en el objeto Observable utilizando el método addObserver.
